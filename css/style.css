@@ -3615,6 +3615,14 @@ input::-webkit-inner-spin-button {
     }
 }
 
+@media (max-width: 613px) {
+
+    .gallery__promo {
+        bottom: -13%;
+    }
+
+}
+
 @media (max-width: 585px) {
 
     .hero__main-title {
@@ -3880,7 +3888,7 @@ input::-webkit-inner-spin-button {
 }
 
 .gallery {
-    padding-bottom: 207px;
+    padding-bottom: 190px;
 }
 
 .gallery__title {
@@ -3939,7 +3947,7 @@ input::-webkit-inner-spin-button {
 }
 
 .gallery__promo {
-    bottom: -28%;
+    bottom: -20%;
     max-width: 576px;
 }
 
@@ -4573,6 +4581,13 @@ input::-webkit-inner-spin-button {
         height: 150px;
     }
 
+}
+
+@media (max-width: 419px) {
+
+    .gallery__promo {
+        bottom: -25%;
+    }
 }
 
 
