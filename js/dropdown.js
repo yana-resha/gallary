@@ -11,7 +11,7 @@ button.forEach(el => {
 });
 
 document.addEventListener('click', (e) => {
-  console.log(e.target)
+  // console.log(e.target)
   if (!e.target.classList.contains('dropdown') && !e.target.classList.contains('drop-btn')) {
     button.forEach(el => {el.classList.remove(('.drop-btn--active'))});
     drop.forEach(el => {el.classList.remove(('dropdown--active'))})

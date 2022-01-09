@@ -2170,7 +2170,8 @@ input::-webkit-inner-spin-button {
 }
 
 .projects__btn-popup:hover + .projects__tooltip-window,
-.projects__btn-popup:focus-visible + .projects__tooltip-window {
+.projects__btn-popup:focus-visible + .projects__tooltip-window,
+.projects__btn-popup:active + .projects__tooltip-window {
     opacity: 1;
 }
 
