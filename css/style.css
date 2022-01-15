@@ -203,9 +203,11 @@ picture source, img, svg {
     outline: none;
 }
 
-.header__nav-link:focus {
+.header__nav-link:focus-visible {
     background-color: #7943A4;
 }
+
+
 
 .header__nav-link:hover {
     color: #C283F3;
@@ -236,9 +238,11 @@ picture source, img, svg {
 }
 
 
-.header__cabinet:focus {
+.header__cabinet:focus-visible {
     background-color: #7943A4;
 }
+
+
 
 .header__cabinet:hover,
 .header__cabinet:hover svg path {
@@ -300,9 +304,11 @@ picture source, img, svg {
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.drop-btn:focus {
+.drop-btn:focus-visible {
     background-color: #7943A4;
 }
+
+
 
 .drop-btn svg path {
     transition: stroke 0.3s ease-in-out;
@@ -326,7 +332,7 @@ picture source, img, svg {
 }
 
 .drop-btn:active svg,
-.drop-btn:focus svg {
+.drop-btn:focus-visible svg {
     transform: rotate(180deg);
 }
 
@@ -346,9 +352,11 @@ picture source, img, svg {
 
 
 .header__dropdown-list-part:hover,
-.header__dropdown-list-part:focus {
+.header__dropdown-list-part:focus-visible {
     outline: 2px solid #9D5CD0;
 }
+
+
 
 .header__dropdown-list-part:active {
     outline: 2px solid #D1A9F0;
@@ -527,12 +535,12 @@ picture source, img, svg {
     transition: border 0.3s ease-in-out;
 }
 
-.header__input:focus,
+.header__input:focus-visible,
 .header__input:hover {
     border-bottom: 1px solid #C283F3;
 }
 
-.header__input:focus,
+.header__input:focus-visible,
 .header__input:active {
     border-bottom: 1px solid #7943A4;
 }
@@ -701,7 +709,7 @@ picture source, img, svg {
     border-bottom: 1px solid #9D5CD0;
 }
 
-.gallery__promo-link:focus {
+.gallery__promo-link:focus-visible {
     background-color: #7943A4;
     color: white;
 }
@@ -785,7 +793,7 @@ picture source, img, svg {
 }
 
 .choices__inner:hover,
-.choices__inner:focus {
+.choices__inner:focus-visible {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -1346,7 +1354,7 @@ picture source, img, svg {
     border-bottom: 1px solid #9D5CD0;
 }
 
-.ui-accordion-header:focus .accordion-header-name  {
+.ui-accordion-header:focus-visible .accordion-header-name  {
     background-color: #9D5CD0;
     color: white;
 }
@@ -1444,7 +1452,7 @@ picture source, img, svg {
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 
-.link-to-gallery:focus {
+.link-to-gallery:focus-visible {
     color: white;
     background-color: #7943A4;
 }
@@ -1461,7 +1469,7 @@ picture source, img, svg {
 
 
 
-.accord-list-btn:focus {
+.accord-list-btn:focus-visible {
     background-color: #7943A4;
     color: white;
 }
@@ -1595,12 +1603,12 @@ picture source, img, svg {
 }
 
 .event__link:hover,
-.event__link:focus {
+.event__link:focus-visible {
     color: #7943A4;
     border-bottom: 1px solid #7943A4;
 }  
 
-.event__link:focus {
+.event__link:focus-visible {
   color: white;
   border: none;
   text-decoration: underline;
@@ -1637,7 +1645,7 @@ picture source, img, svg {
   border: 3px solid #D1A9F0;
   }
 
-.event__btn:focus {
+.event__btn:focus-visible {
     color: #C283F3;
     border: 2px solid #C283F3;
 }
@@ -1980,12 +1988,12 @@ picture source, img, svg {
   border: 3px solid #D1A9F0;
   }
 
-.edition__btn-pay:focus {
+.edition__btn-pay:focus-visible {
     color: white;
     border: 2px solid #C283F3;
 }
 
-.edition__btn-pay:focus:after {
+.edition__btn-pay:focus-visible {
   content: "";
   position: absolute;
   left: -7px;
@@ -2034,7 +2042,7 @@ picture source, img, svg {
     transition: all 0.3s ease-in-out;
 }
 
-.edition__price:focus,
+.edition__price:focus-visible,
 .edition__price:hover {
     background-color: #9D5CD0;
 }
@@ -2114,7 +2122,7 @@ input::-webkit-inner-spin-button {
     transition-timing-function: ease-in-out;
 }
 
-.projects__href:focus {
+.projects__href:focus-visible {
     background-color: #9D5CD0;
     color: white;
 }
@@ -2427,7 +2435,7 @@ input::-webkit-inner-spin-button {
     margin-bottom: 22px;
 }
 
-.contacts__input:focus,
+.contacts__input:focus-visible,
 .contacts__input:hover {
     background-color: #EAEAEA;
 }
